@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <h1>Formulário de Preenchimento</h1>
+        <label for="">Nome: </label> <input type="text"> <br>
+        <label for="">Idade: </label> <input type="number"> <br>
+        <label for="">E-mail: </label> <input type="email"> <br>
+        <label for="">Nascimento: </label> <input type="date"> <br>
+        <label for="">Range: </label> <input type="range"> <br>
+        <label for="">Arquivo: </label> <input type="file"> <br>
+        <select name="role" id="">
+            <option selected value="">Selecione sua profissão:</option>
+            <option value="Engenheiro de Software">Engenheiro de Software</option>
+            <option value="Desenvolvedor">Desenvolvedor</option>
+        </select> <br>
+        <p>Quais cargos você deseja?</p>
+        <input type="checkbox" disabled name="cargo[]" value="trainee">Trainee <br>
+        <input type="checkbox" name="cargo[]" value="Estágio">Estágio <br>
+        <input type="checkbox" name="cargo[]" value="Júnior">Júnior <br>
+        <p>Você aceita receber notificações?</p>
+        <input type="radio" name="notify" value="Sim">Sim
+        <input type="radio" name="notify" value="Não">Não <br>
+        <br>
+        <label for="">Botão:</label> <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
